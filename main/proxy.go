@@ -7,8 +7,8 @@ import (
 	"icovn.dev/network"
 )
 
-func main() {
+func test() {
 	// Get a greeting message and print it.
 	message := network.Hello("Gladys")
-	fmt.Println(reverse.String(message), reverse.Int(24601))
+	fmt.Println(reverse.String(message))
 }
